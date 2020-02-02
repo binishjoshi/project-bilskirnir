@@ -1,19 +1,11 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useState } from 'react';
+
+import HomeStack from './navigation/homeStack';
+import SignInStack from './navigation/signInStack';
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
+  const[signedIn, setSignedIn] = useState(false);
+  return(
+    signedIn ? <HomeStack /> : <SignInStack />
   );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+};
