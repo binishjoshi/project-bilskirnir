@@ -5,10 +5,12 @@ import SignIn from '../screens/signin';
 
 const screens = {
   SignIn: {
-    screen: SignIn
+    screen: SignIn,
   }
 };
 
-const SignInStack = createStackNavigator(screens);
+const SignInStack = createStackNavigator(screens, {
+  headerMode: "none"
+});
 
 export default createAppContainer(SignInStack);
