@@ -11,35 +11,35 @@ import Progress from './progress';
 const DATA = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-    title: 'First Item',
+    title: 'First Hokage',
   },
   {
     id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-    title: 'Second Item',
+    title: 'Second Hokage',
   },
   {
     id: '58694a0f-3da1-471f-bd-145571e29d72',
-    title: 'Third Item',
+    title: 'Third Hokage',
   },
   {
     id: '58694a0f-3da1-471f-bd96-145571e29d72',
-    title: 'Forth Item',
+    title: 'Forth Hokage',
   },
   {
     id: '586940f-3da1-471f-bd96-145571e29d72',
-    title: 'Fifth Item',
+    title: 'Fifth Hokage',
   },
   {
     id: '58694a0f-3da1-471f-bd6-145571e29d72',
-    title: 'Sixth Item',
+    title: 'Sixth Hokage',
   },
   {
     id: '58694a0f-3da1-471\bd96-145571e29d72',
-    title: 'Seventh Item',
+    title: 'Seventh Hokage',
   },
   {
     id: '58694a0f-3da1-471f-bd96571e29d72',
-    title: 'Eighth Item',
+    title: 'Eighth Hokage',
   },
 ];
 
@@ -55,6 +55,7 @@ const ProgressContainer = () => {
         )}
         keyExtractor={item => item.id}
         numColumns='2'
+        showsVerticalScrollIndicator={false}
       />
     </View>
   );

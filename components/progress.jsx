@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     margin: (width * 0.02),
   },
   progressTitle: {
-    backgroundColor: 'rgb(56,26,200)',
+    backgroundColor: 'rgb(156,212,200)',
     padding: 5,
   },
   bar: {

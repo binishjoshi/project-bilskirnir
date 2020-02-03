@@ -5,13 +5,14 @@ import {
   View,
 } from 'react-native';
 
-import Option from './option';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const OptionsContainer = () => {
   return (
     <View style={styles.optionsContainer}>
-      <Text>Here goes option Container</Text>
-      <Option />
+      <MaterialCommunityIcons name='heart' size={55} />
+      <MaterialCommunityIcons name='account' size={55} />
+      <MaterialCommunityIcons name='settings' size={55} />
     </View>
   );
 };
@@ -20,6 +21,8 @@ const styles = StyleSheet.create({
   optionsContainer: {
     flex: 1,
     backgroundColor: '#a69156',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   }
 });
 
