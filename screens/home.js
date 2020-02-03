@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
   },
   currentLevelContainer:{
     flex: 4,
-    backgroundColor: 'red',
+    backgroundColor: '#49d8d4',
   },
   progressContainer: {
     flex: 2,
