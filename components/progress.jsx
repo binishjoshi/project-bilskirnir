@@ -38,7 +38,10 @@ const styles = StyleSheet.create({
   progressContainer: {
     backgroundColor: 'rgb(56,26,100)',
     width: progressLength,
+    borderColor: 'black',
+    borderWidth: 5,
     borderRadius: 6,
+    margin: (width * 0.02),
   },
   progressTitle: {
     backgroundColor: 'rgb(56,26,200)',

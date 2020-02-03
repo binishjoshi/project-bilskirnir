@@ -38,7 +38,7 @@ const Home = () => {
       <View style={styles.progressContainer}>
         <ProgressContainer />
       </View>
-      
+
       <View style={styles.optionsContainer}>
         <OptionsContainer />
       </View>
@@ -52,12 +52,12 @@ const styles = StyleSheet.create({
     backgroundColor: 'pink',
   },
   currentLevelContainer:{
-    flex: 4,
+    flex: 6,
     alignItems: 'center',
     backgroundColor: '#49d8d4',
   },
   circleContainer:{
-    flex: 8,
+    flex: 10,
     backgroundColor: 'rgb(123, 99, 216)',
     alignItems: 'center',
     flexDirection: 'row',
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgb(116, 159, 60)',
   },
   progressContainer: {
-    flex: 2,
+    flex: 4,
     backgroundColor: 'blue',
   },
   optionsContainer: {
